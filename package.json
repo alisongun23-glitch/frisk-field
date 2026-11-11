@@ -1,0 +1,11 @@
+{
+  "name": "frisk-field",
+  "private": true,
+  "type": "module",
+  "description": "Simulator for a made-up pixel physics: particle classes, connections, growth, death and an energy field.",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --test",
+    "run": "node tools/run.mjs"
+  }
+}

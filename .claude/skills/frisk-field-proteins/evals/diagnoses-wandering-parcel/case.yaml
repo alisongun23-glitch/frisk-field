@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: diagnoses-wandering-parcel
+expected_outcome: |
+  Explains that a free particle with nothing pulling it keeps going on its last heading (inertia 0.25), and that the post's pull of 0.5 × (1 − d/7) falls below that a few cells out, so once random walk takes the parcel 3 to 4 cells from its post it leaves in a straight line and the dock's sockets pull it in. Fixes it by giving the waiting parcel random walk 0, as a class of its own or the Garage's Package rather than by changing the shared Parcel class that other proteins use, optionally with a pocket of walls. Shows by running at least 10 seeds that the parcel stays by its post and nothing is docked without a courier.
+context:
+  scaffold_script: place-files.sh

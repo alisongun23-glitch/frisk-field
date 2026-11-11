@@ -1,0 +1,14 @@
+# Never uploaded: system files, installs, secrets, keys and recordings.
+.DS_Store
+node_modules/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.wav
+*.mp3
+*.m4a
+*.aiff
+*.mp4
+*.mov
